@@ -14,7 +14,7 @@ for CHR in chr_name:
 
 # step 1: find neighborhood
     for i in range(0,y.shape[0]):
-        z = y[ abs((y['x1'] - y['x1'][i])<= GAP) & (abs(y['y1'] - y['y1'][i]) <= GAP)]
+        z = y[ (abs(y['x1'] - y['x1'][i])<= GAP) & (abs(y['y1'] - y['y1'][i]) <= GAP)]
         y.loc[i,'CountNei'] = z.shape[0]
 
 
@@ -54,7 +54,7 @@ for CHR in chr_name:
         v['ClusterSize'] = 0
         v['summit'] = 0
         v['NegLog10FDR'] = 0
-        for i in range(0,v_rec.shape[0]):
+        for i in range(1,v_rec.shape[0]+1):
        
             vtmp = v[ v['label'] == i ]
             v['ClusterSize'][ v['label'] == i ] = vtmp.shape[0]
