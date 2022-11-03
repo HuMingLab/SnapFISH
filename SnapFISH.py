@@ -303,9 +303,19 @@ def step4a(y0,data_name,out_dir):
        
         final = pd.concat([final.reset_index(drop=True), out])
 
-    out = final[ final['summit']== 1 ]
-    newfilename1 = os.path.join(out_dir, "output_loop_summit_%s.txt" % (data_name))
-    out.to_csv(newfilename1,header=True, index=None, sep='\t')
+    if(len(final)== 0):
+        newfilename1 = os.path.join(out_dir, "output_loop_summit_%s.txt" % (data_name))
+        text_file = open(newfilename1, "w")
+        text_file.write('There are no summits')
+        text_file.close()
+    else:
+        out = final[ final['summit']== 1 ]
+        newfilename1 = os.path.join(out_dir, "output_loop_summit_%s.txt" % (data_name))
+        out.to_csv(newfilename1,header=True, index=None, sep='\t')
+        
+    #out = final[ final['summit']== 1 ]
+    #newfilename1 = os.path.join(out_dir, "output_loop_summit_%s.txt" % (data_name))
+    #out.to_csv(newfilename1,header=True, index=None, sep='\t')
     #out.to_csv('output_loop_summit_CAST.txt', header=True, index=None, sep='\t')
 
     return out
