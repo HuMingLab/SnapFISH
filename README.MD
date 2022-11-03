@@ -21,7 +21,7 @@ SnapFiSH was built using following Python packages.
 - Cast allele contains the 7.5Kb 4CBS insertion.
 - 129 allele does not contain the 7.5Kb 4CBS insertion. 
 - After filtering, we keep 649 cells (649 129 alleles and 649 CAST alleles). On average, each allele contains 28 5Kb bins.
-- SnapFISH outputs the list of summit. If you choose to output heatmaps, the PDF file will be located in the output/tempfile. 
+- SnapFISH outputs the list of summit. If you choose to output heatmaps, the PDF file will be located in /dir/to/SnapFISHoutput/output/tempfile. 
 
 ### File Details
 The input files are located in the ext folder.
