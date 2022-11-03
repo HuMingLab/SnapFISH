@@ -60,9 +60,14 @@ The input files are located in the ext folder.
 
 ### Running SnapFiSH
 
-```
-run_SnapFISH.sh
-```
+The shellscript is included in this github page. The required inputs variables are:
+
+1. SnapFISH_dir : The directory of SnapFISH
+2. input_dir : The directory of input file
+3. output_dir : The directory for output
+4. ann_file : The directory of file containing genomic location for each 5Kb bin. Look under "063022_input_ann.txt" of File Details section for more details 
+5. save_pic : 0 for outputting heatmaps, and 1 for not
+6. data_name : Name of data
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
