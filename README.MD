@@ -20,7 +20,8 @@ SnapFiSH was built using following Python packages.
 - 5Kb bin resolution, 41 loci cover a 205Kb region in mESC Sox2 locus. chr3:34,601,078–34,806,078 (ref: mm10).
 - Cast allele contains the 7.5Kb 4CBS insertion.
 - 129 allele does not contain the 7.5Kb 4CBS insertion. 
-- after filtering, we keep 649 cells (649 129 alleles and 649 CAST alleles). On average, each allele contains 28 5Kb bins.
+- After filtering, we keep 649 cells (649 129 alleles and 649 CAST alleles). On average, each allele contains 28 5Kb bins.
+- SnapFISH outputs the list of summit. If you choose to output heatmaps, the PDF file will be located in the output/tempfile. 
 
 ### File Details
 The input files are located in the ext folder.
