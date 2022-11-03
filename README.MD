@@ -61,7 +61,7 @@ The input files are located in the ext folder.
 ### Running SnapFiSH
 
 ```
-python3 SnapFiSH_step*.py
+run_SnapFISH.sh
 ```
 
 ### Contact Us
