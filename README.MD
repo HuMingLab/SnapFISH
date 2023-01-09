@@ -38,26 +38,14 @@ The input files are located in the ext folder.
 * 063022_input_3D_coordinates_CAST.txt    
   * input data for the CAST allele. 
 
-* SnapFish_step1a.py       
-  * take 3D coordinates of each locus in each cell as input, calculate Eucildean disance between any two loci pairs, and also calculate average Euclidean disance for each loci pair across all available cells to create distance matrix.
-
-* SnapFiSH_step1b.py            
-  * make heatmap of average Euclidean distance
-
-* SnapFiSH_step2.py                         
-  * perform two sample T-test for each loci pair based on local background model
-
-* SnapFiSH_step3a.py                
-  * identify loop candidates
-
-* SnapFiSH_step3b.py            
-  * make heatmap of loop candidates
-
-* SnapFiSH_step4a.py                    
-  * group nearby loop candidates into clusters. remove singletons, only keep summits
-
-* SnapFiSH_step4b.py                
-  * make heatmap of loop summits
+* SnapFish.py       
+  * Step 1a: take 3D coordinates of each locus in each cell as input, calculate Eucildean disance between any two loci pairs, and also calculate average Euclidean disance for each loci pair across all available cells to create distance matrix.          
+  * Step 1b: make heatmap of average Euclidean distance                       
+  * Step 2: perform two sample T-test for each loci pair based on local background model               
+  * Step 3a: identify loop candidates        
+  * Step 3b: make heatmap of loop candidates               
+  * Step 4a: group nearby loop candidates into clusters. remove singletons, only keep summits              
+  * Step 4b: make heatmap of loop summits
 
 ### Running SnapFiSH
 
