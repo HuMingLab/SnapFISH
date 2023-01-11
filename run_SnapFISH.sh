@@ -10,7 +10,7 @@ SnapFISH_dir="/home/leeh7/SnapFiSH/python/"
 input_dir="/home/leeh7/SnapFiSH/python/063022_input_3D_coordinates_129.txt"
 output_dir="/home/leeh7/SnapFiSH/python/output"
 ann_file="/home/leeh7/SnapFiSH/python/063022_input_ann.txt"
-save_pic=0
+save_pic=1
 data_name="129"
 
 
