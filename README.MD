@@ -13,7 +13,7 @@ SnapFiSH was built using following Python packages.
 7. matplotlib.pyplot
 8. math
 
-For 25Kb version, the packages are requried in an addiont to above
+For 25Kb version, the packages are requried in an addition to above
 
 1. futures 3.0.5
 
