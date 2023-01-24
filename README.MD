@@ -16,6 +16,7 @@ SnapFiSH was built using following Python packages.
 For the 25Kb version, one package is requried in an addition to above
 
 1. futures 3.0.5
+2. natsort 8.2.0
 
 
 ### Details
