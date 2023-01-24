@@ -32,7 +32,7 @@ fi
 
 
 if [[ $bin_size -eq 25000 ]]; then
-python ${SnapFISH_dir}/SnapFISH25Kb_p.py -s $SnapFISH_dir  -o $output_dir -a $ann_file -d $data_name --rep1 $rep1_dir --rep2 $rep2_dir -n $num_CPUs                     
+python ${SnapFISH_dir}/SnapFISH25/SnapFISH25Kb.py -s $SnapFISH_dir  -o $output_dir -a $ann_file -d $data_name --rep1 $rep1_dir --rep2 $rep2_dir -n $num_CPUs                     
 fi
 
 if [[ $bin_size -ne 25000 ]]; then
