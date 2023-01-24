@@ -61,6 +61,7 @@ The shellscript is included in this github page. The required input variables ar
 4. ann_file : The directory of file containing genomic location for each 5Kb bin. Look under "063022_input_ann.txt" of File Details section for more details 
 5. save_pic : 0 for outputting heatmaps, and 1 for not
 6. data_name : Name of data
+7. bin_size : The resolution of bin size
 
 For 25Kb version, the required input variables are:
 
@@ -69,8 +70,7 @@ For 25Kb version, the required input variables are:
 3. rep2_dir : The directory of input replicate 2 file
 3. output_dir : The directory for output
 4. ann_file : The directory of file containing genomic location for each 25Kb bin.
-5. bin_size : The resolution of bin size
-6. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as a single processor. When using a HPC with job scheduler, make sure to ask for 1 node.
+5. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as a single processor. When using a HPC with job scheduler, make sure to ask for 1 node.
 
 
 ### Contact Us
