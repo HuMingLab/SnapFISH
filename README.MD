@@ -13,6 +13,10 @@ SnapFiSH was built using following Python packages.
 7. matplotlib.pyplot
 8. math
 
+For 25Kb version, the packages are requried in an addiont to above
+
+1. futures 3.0.5
+
 
 ### Details
 
@@ -49,7 +53,7 @@ The input files are located in the ext folder.
 
 ### Running SnapFiSH
 
-The shellscript is included in this github page. The required inputs variables are:
+The shellscript is included in this github page. The required input variables are:
 
 1. SnapFISH_dir : The directory of SnapFISH
 2. input_dir : The directory of input file
@@ -57,6 +61,17 @@ The shellscript is included in this github page. The required inputs variables a
 4. ann_file : The directory of file containing genomic location for each 5Kb bin. Look under "063022_input_ann.txt" of File Details section for more details 
 5. save_pic : 0 for outputting heatmaps, and 1 for not
 6. data_name : Name of data
+
+For 25Kb version, the required input variables are:
+
+1. SnapFISH_dir : The directory of SnapFISH for 25Kb
+2. rep1_dir : The directory of input replicate 1 file
+3. rep2_dir : The directory of input replicate 2 file
+3. output_dir : The directory for output
+4. ann_file : The directory of file containing genomic location for each 25Kb bin.
+5. bin_size : The resolution of bin size
+6. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as a single processor. When using a HPC with job scheduler, make sure to ask for 1 node.
+
 
 ### Contact Us
 For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
