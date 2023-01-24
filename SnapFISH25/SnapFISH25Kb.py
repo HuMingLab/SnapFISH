@@ -5,6 +5,8 @@ from natsort import natsorted
 from scipy import stats
 import statsmodels.stats.multitest as multi
 import warnings
+warnings.filterwarnings("ignore")
+
 import glob
 import concurrent.futures
 from functools import partial
