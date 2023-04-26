@@ -34,7 +34,7 @@ The input files are located in the ext folder.
   * Col #1: chromosome number
   * Col #2: unique ID for each cell
   * Col #3: locus ID
-  * Col #4~#6: 3D coordinates (X,Y,Z) for each 5Kb bin, unit: nm.
+  * Col #4~#6: 3D coordinates (X,Y,Z) for each bin, unit: nm.
 
 
 * SnapFish.py       
