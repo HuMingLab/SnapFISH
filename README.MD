@@ -25,17 +25,17 @@ SnapFiSH was built using following Python packages.
 ### File Details
 The input files are located in the ext folder.
 
-* 063022_input_ann.txt 
-  * input data, genomic location for each 5Kb bin. Col #4 "pos" is the unique ID for each 5Kb bin.
+* input_ann.txt 
+  * input data, genomic location for each bin. Col #4 "pos" is the unique ID for each bin.
+  * The columns consist of chr, start, end, and pos
 
-* 063022_input_3D_coordinates_129.txt
+* 129_3d_coor.txt
   * input data for the 129 allele. 
-  * Col #1: unique ID for each cell
-  * Col #2: unique ID for each 5Kb bin
-  * Col #3~#5: 3D coordinates (X,Y,Z) for each 5Kb bin, unit: nm.
+  * Col #1: chromosome number
+  * Col #2: unique ID for each cell
+  * Col #3: locus ID
+  * Col #4~#6: 3D coordinates (X,Y,Z) for each 5Kb bin, unit: nm.
 
-* 063022_input_3D_coordinates_CAST.txt    
-  * input data for the CAST allele. 
 
 * SnapFish.py       
   * Step 1a: take 3D coordinates of each locus in each cell as input, calculate Eucildean disance between any two loci pairs, and also calculate average Euclidean disance for each loci pair across all available cells to create distance matrix.          
