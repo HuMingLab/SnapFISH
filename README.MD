@@ -1,7 +1,6 @@
 # SnapFISH: single nucleus analysis pipeline for super-resolution imaging data
 
 
-
 ### Requirements
 SnapFiSH was built using following Python packages.
 
@@ -12,11 +11,6 @@ SnapFiSH was built using following Python packages.
 6. statsmodels 0.12.2
 7. matplotlib.pyplot
 8. math
-
-For the 25Kb version, one package is requried in an addition to above
-
-1. futures 3.0.5
-2. natsort 8.2.0
 
 
 ### Details
@@ -63,15 +57,6 @@ The shellscript is included in this github page. The required input variables ar
 5. save_pic : 0 for outputting heatmaps, and 1 for not
 6. data_name : Name of data
 7. bin_size : The resolution of bin size
-
-For 25Kb version, the required input variables are:
-
-1. SnapFISH_dir : The directory of SnapFISH for 25Kb
-2. rep1_dir : The directory of input replicate 1 file
-3. rep2_dir : The directory of input replicate 2 file
-3. output_dir : The directory for output
-4. ann_file : The directory of file containing genomic location for each 25Kb bin.
-5. num_CPUs : The number of CPUs one would like to use. One can check how many CPUs are available by "lscpu". If num_CPUs = 1, the program will run as a single processor. When using a HPC with job scheduler, make sure to ask for 1 node.
 
 
 ### Contact Us
