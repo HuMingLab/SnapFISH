@@ -5,7 +5,7 @@
 ###                            User Variables                            ###
 ############################################################################
 
-
+SnapFISH_dir="/home/SnapFISH/directory/"
 input_dir="/home/input/directory/129_3d_coor.txt"
 output_dir="/home/output/directory"
 ann_file="/home/input/directory/input_ann.txt"
@@ -17,4 +17,4 @@ if [ ! -d "$output_dir" ]; then
   mkdir $output_dir
 fi
 
-python3 SnapFISH.py -i $input_dir -o $output_dir -a $ann_file -p $save_pic -d $data_name
+python3 $SnapFISH_dir/SnapFISH.py -i $input_dir -o $output_dir -a $ann_file -p $save_pic -d $data_name
