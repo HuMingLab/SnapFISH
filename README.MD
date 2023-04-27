@@ -1,6 +1,6 @@
 # SnapFISH: single nucleus analysis pipeline for super-resolution imaging data
 
-Find the preprint of SnapFISH [here](https://www.biorxiv.org/content/10.1101/2022.12.16.520793v1)
+Find the preprint of SnapFISH [here](https://www.biorxiv.org/content/10.1101/2022.12.16.520793v1).
 
 ### Requirements
 SnapFiSH was built using following Python packages.
