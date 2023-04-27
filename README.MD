@@ -1,5 +1,6 @@
 # SnapFISH: single nucleus analysis pipeline for super-resolution imaging data
 
+Find the preprint of SnapFISH [here](https://www.biorxiv.org/content/10.1101/2022.12.16.520793v1)
 
 ### Requirements
 SnapFiSH was built using following Python packages.
@@ -16,26 +17,13 @@ SnapFiSH was built using following Python packages.
 ### Details
 
 - Chromatin tracing data from Huang et al, NG, 2021 (PMID: 34002095)
-- 5Kb bin resolution, 41 loci cover a 205Kb region in mESC Sox2 locus. chr3:34,601,078–34,806,078 (ref: mm10).
+- 5Kb bin resolution, 41 loci cover a 205Kb region in mESC *Sox2* locus. chr3:34,601,078–34,806,078 (ref: mm10).
 - Cast allele contains the 7.5Kb 4CBS insertion.
 - 129 allele does not contain the 7.5Kb 4CBS insertion. 
 - After filtering, we keep 649 cells (649 129 alleles and 649 CAST alleles). On average, each allele contains 28 5Kb bins.
-- SnapFISH outputs the list of summit. If you choose to output heatmaps, the PDF file will be located in /dir/to/SnapFISH/output. 
+- SnapFISH outputs the list of summit. 
 
-### File Details
-The input files are located in the ext folder.
-
-* input_ann.txt 
-  * input data, genomic location for each bin. Col #4 "pos" is the unique ID for each bin.
-  * The columns consist of chr, start, end, and pos
-
-* 129_3d_coor.txt
-  * input data for the 129 allele. 
-  * Col #1: chromosome number
-  * Col #2: unique ID for each cell
-  * Col #3: locus ID
-  * Col #4~#6: 3D coordinates (X,Y,Z) for each bin, unit: nm.
-
+### File Descriptions
 
 * SnapFish.py       
   * Step 1a: take 3D coordinates of each locus in each cell as input, calculate Eucildean disance between any two loci pairs, and also calculate average Euclidean disance for each loci pair across all available cells to create distance matrix.          
@@ -45,10 +33,26 @@ The input files are located in the ext folder.
   * Step 3b: make heatmap of loop candidates               
   * Step 4a: group nearby loop candidates into clusters. remove singletons, only keep summits              
   * Step 4b: make heatmap of loop summits
+  
+The input files are located in the ext folder.
+
+* input_ann.txt 
+  * Input data, genomic location for each bin. 
+  * The columns consist of chr, start, end, and pos
+  * Col #4 "pos" is the unique ID for each bin.
+
+* 129_3d_coor.txt
+  * Input data for the 129 allele. 
+  * Col #1: chromosome number
+  * Col #2: unique ID for each cell
+  * Col #3: locus ID
+  * Col #4~#6: 3D coordinates (X,Y,Z) for each bin, unit: nm.
+
+
 
 ### Running SnapFiSH
 
-The shellscript is included in this github page. The required input variables are:
+The shellscript is included in this github page. The **required** input variables are:
 
 1. SnapFISH_dir : The directory of SnapFISH
 2. input_dir : The directory of input file
