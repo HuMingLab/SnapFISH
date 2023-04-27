@@ -9,7 +9,7 @@ SnapFISH_dir="/home/SnapFISH/directory/"
 input_dir="/home/input/directory/129_3d_coor.txt"
 output_dir="/home/output/directory"
 ann_file="/home/input/directory/input_ann.txt"
-save_pic=1      # 0 for outputting heatmaps, and 1 for not
+save_pic=0     # 1 for outputting heatmaps, and 0 for not
 data_name="129"
 
 ############################################################################
