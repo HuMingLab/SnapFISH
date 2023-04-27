@@ -357,7 +357,7 @@ def create_parser():
     parser.add_argument('-a', '--anndir', action = 'store', \
                         required = True, help = 'file list directory')
     parser.add_argument('-p', '--pic', action = 'store', type = int, \
-                        required = True, help = '0 to save figure, and 1 to not')
+                        required = True, help = '1 to save figure, and 0 to not')
     parser.add_argument('-d', '--dataname', action = 'store', \
                         required = True,  help = 'data name')
     return parser.parse_args()
