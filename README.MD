@@ -58,9 +58,9 @@ The shellscript is included in this github page. The required input variables ar
 6. data_name : Name of data for prefix
 
 To run,
-'''
+```
 ./run_SnapFISH.sh
-'''
+```
 
 
 ### Contact Us
