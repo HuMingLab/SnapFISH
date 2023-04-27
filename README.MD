@@ -38,7 +38,7 @@ The input files are located in the ext folder.
 
 * input_ann.txt 
   * Input data, genomic location for each bin. 
-  * The columns consist of chr, start, end, and pos
+  * The columns consist of `chr`, `start`, `end`, and `pos`.
   * Col #4 "pos" is the unique ID for each bin.
 
 * 129_3d_coor.txt
