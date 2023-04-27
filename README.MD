@@ -57,7 +57,7 @@ The shellscript is included in this github page. The required input variables ar
 5. save_pic : 0 for outputting heatmaps, and 1 for not
 6. data_name : Name of data for prefix
 
-To run,
+To run SnapFISH,
 ```
 ./run_SnapFISH.sh
 ```
