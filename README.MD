@@ -58,7 +58,7 @@ The shellscript is included in this github page. The **required** input variable
 2. input_dir : The directory of input dataset
 3. output_dir : The directory for output
 4. ann_file : The directory of file containing genomic location for each bin.
-5. save_pic : 0 for outputting heatmaps, and 1 for not
+5. save_pic : 1 for outputting heatmaps, and 0 for not
 6. data_name : Name of data for prefix
 
 To run SnapFISH,
