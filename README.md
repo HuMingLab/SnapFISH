@@ -39,7 +39,7 @@ The SnapFISH algorithm consists of four steps:
 
 ## Required Input
 
-The example of input files can be found in the ext folder.
+SnapFISH requires two text files described below as an input. The example of input files can be found in the ext folder.
 
 1. 3D_COOR.txt : the txt file containing 3D coordinates information as the following columns (separated by tab)
   * Col #1 `chr`: chromosome number
