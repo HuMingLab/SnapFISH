@@ -157,7 +157,7 @@ SnapFISH was built using following Python packages.
 7. matplotlib 3.3.4
 
 ### Input
-The **required** input variables of the Shellscript are:
+The *required* input variables of the Shellscript are:
 
 1. SnapFISH_dir : The directory of SnapFISH
 2. input_path : The path of the file containing 3D coordinates
