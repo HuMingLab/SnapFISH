@@ -173,7 +173,7 @@ The *required* input variables of the Shellscript are:
 3. output_dir : The directory for output
 4. ann_file : The path of the file containing genomic location for each bin
 5. save_pic : 1 for outputting heatmaps, and 0 for not
-6. data_name : Name of data for prefix
+6. data_name : Name of data for the output file suffix
 
 To run SnapFISH,
 ```
