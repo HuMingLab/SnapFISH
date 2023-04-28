@@ -53,14 +53,13 @@ The example of input files can be found in the ext folder.
   * Col #4 `pos`: the unique ID for each bin
   
 
-## Use SnapFISH As a Command Line Tool
+## Demo of SnapFISH
+
+### SnapFISH As a Command Line Tool
 
 You can use SnapFISH as a command line tool after activating the conda environment and installing SnapFISH by 
 
 `pip install SnapFISH`
-
-
-## Demo of SnapFISH
 ### Identification of Enhancer-Promoter Loops
 
 To call enhancer-promoter loops, type the following in your terminal:
