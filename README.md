@@ -163,6 +163,7 @@ SnapFISH was built using following Python packages.
 5. scipy 1.5.4
 6. statsmodels 0.12.2
 7. matplotlib 3.3.4
+8. click 7.1.2
 
 ### Input
 The *required* input variables of the Shellscript are:
