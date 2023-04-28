@@ -4,7 +4,7 @@ Find the preprint of SnapFISH [here](https://www.biorxiv.org/content/10.1101/202
 
 ## Installation
 
-SnapFISH is a published package on PyPI and can be downloaded by `pip install SnapFISH`. It is recommended to create a new conda environment before installing SnapFISH. This can be done by 
+SnapFISH is a published package on [PyPI](https://pypi.org/project/SnapFISH/0.1.0/) and can be downloaded by `pip install SnapFISH`. It is recommended to create a new conda environment before installing SnapFISH. This can be done by 
 
 ```bash
 conda create --name SnapFISH_env python==3.6.8
