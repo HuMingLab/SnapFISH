@@ -97,17 +97,23 @@ Pearson's r (average.dist and contact.freq): -0.9845
 
 The cutoff is the average Euclidean distance in nm between two bin pairs 25Kb apart. The Pearson's *r* value is the correlation between the average distance matrix and the contact frequency matrix. The following files will also be produced:
 
-1. tmp/output_3D_dist_129chr3.txt: The pairwise distance between each bin in each cell. Missing values are skipped.
+1. tmp/output_3D_dist_129chr3.txt: 
+⋅⋅* The pairwise distance between each bin in each cell. Missing values are skipped.
 
-2. tmp/output_3D_dist_129chr3_avg.txt: The average pairwise distance between each bin across all cells. 
+2. tmp/output_3D_dist_129chr3_avg.txt: 
+⋅⋅* The average pairwise distance between each bin across all cells. 
 
-3. tmp/heatmap_av_Euc_dist_129chr3.pdf, tmp/heatmap_Contact_freq_129chr3.pdf: The heatmaps of average pairwise distance and contact frequency.
+3. tmp/heatmap_av_Euc_dist_129chr3.pdf, tmp/heatmap_Contact_freq_129chr3.pdf: 
+⋅⋅* The heatmaps of average pairwise distance and contact frequency.
 
-5. tmp/output_test_129.txt: *T*-test and Wilcoxon rank test results from the local background model.
+4. tmp/output_test_129.txt: 
+⋅⋅* *T*-test and Wilcoxon rank test results from the local background model.
 
-6. tmp/output_loop_candidate_129.txt, tmp/heatmap_loop_candidates_129chr3.pdf: The loop candidates are selected, and the heatmap showing their positions.
+5. tmp/output_loop_candidate_129.txt, tmp/heatmap_loop_candidates_129chr3.pdf: 
+⋅⋅* The loop candidates are selected, and the heatmap showing their positions.
 
-7. tmp/output_loop_summit_129.txt, tmp/heatmap_loop_summits_129chr3.pdf: The loop summits are identified, and the heatmap showing their positions.
+6. tmp/output_loop_summit_129.txt, tmp/heatmap_loop_summits_129chr3.pdf: 
+⋅⋅* The loop summits are identified, and the heatmap showing their positions.
 
 ### Pairwise Distances
 
