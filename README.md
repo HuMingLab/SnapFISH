@@ -45,7 +45,7 @@ SnapFISH requires two text files described below as an input. The example of inp
   * Col #1 `chr`: chromosome number
   * Col #2 `cell_id`: unique ID for each cell
   * Col #3 `pos`: locus ID
-  * Col #4~#6 `x`, `y`, `z`: 3D coordinates (X,Y,Z) for each bin, unit: nm.
+  * Col #4~#6 `x`, `y`, `z`: 3D coordinates (*X*,*Y*,*Z*) for each bin, unit: nm.
 
 
 3. ANN.txt : the 1D genomic annotation file containing the genomic location for each bin
