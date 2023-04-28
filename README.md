@@ -161,7 +161,7 @@ To run SnapFISH,
 
 If you are using Windows, please change `/` to `\\`.
 
-## Requirements
+# Dependencies
 SnapFISH was built using following Python packages.
 
 1. Python 3.6.8
