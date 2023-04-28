@@ -144,6 +144,7 @@ SnapFISH -i tmp/output_test_129.txt -o tmp -a ext/input_ann.txt -p 1 -d 129 -m w
 will only keep the bin pairs with the FDR less than 0.05 from the Wilcoxon rank test.
 
 ## Run SnapFISH with Shellscript
+Although, it is recommended to install SnapFISH via Pip, it is possible to run SnapFISH with the Shellscript. Simply download the dependencies, the files in this Github page, and run the Shellscript `run_SnapFISH.sh`.
 
 ### Dependencies
 SnapFISH was built using following Python packages.
@@ -155,8 +156,8 @@ SnapFISH was built using following Python packages.
 6. statsmodels 0.12.2
 7. matplotlib 3.3.4
 
-
-SnapFISH can also be run by downloading the files in this Github page and running the Shellscript. The **required** input variables of the Shellscript are:
+### Input
+The **required** input variables of the Shellscript are:
 
 1. SnapFISH_dir : The directory of SnapFISH
 2. input_path : The path of the file containing 3D coordinates
