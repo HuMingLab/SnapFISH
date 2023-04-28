@@ -3,7 +3,7 @@
 Find the preprint of SnapFISH [here](https://www.biorxiv.org/content/10.1101/2022.12.16.520793v1).
 
 ## Installation
-**Recommended way**
+**Recommended Way**
 
 SnapFISH is a published package on [PyPI](https://pypi.org/project/SnapFISH/0.1.0/) and can be downloaded by 
 
@@ -16,7 +16,7 @@ conda create --name SnapFISH_env python==3.6.8
 conda activate SnapFISH_env
 pip install SnapFISH
 ```
-**Alternative way**
+**Alternative Way**
 
 Alternatively, you can download the source code from this github site and run it using the Shellscript provided:
 
