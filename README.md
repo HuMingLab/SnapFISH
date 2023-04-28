@@ -18,7 +18,7 @@ pip install SnapFISH
 ```
 **Alternative Way**
 
-Alternatively, you can download the source code from this github site and run it using the Shellscript provided:
+Alternatively, you can download the source code from this GitHub page and run it using the Shellscript provided:
 
 ```bash
 git clone https://github.com/lindsayhrlee/SnapFISH SnapFISH && cd SnapFISH
@@ -156,7 +156,7 @@ SnapFISH -i tmp/output_test_129.txt -o tmp -a ext/input_ann.txt -p 1 -d 129 -m w
 will only keep the bin pairs with the FDR less than 0.05 from the Wilcoxon rank test.
 
 ## Run SnapFISH with Shellscript
-Although, it is recommended to install SnapFISH via Pip, it is possible to run SnapFISH with the Shellscript. Simply download the dependencies, the files in this Github page, and run the Shellscript `run_SnapFISH.sh`.
+Although, it is recommended to install SnapFISH via Pip, it is possible to run SnapFISH with the Shellscript. Simply download the dependencies, the files in this GitHub page, and run the Shellscript `run_SnapFISH.sh`.
 
 ### Dependencies
 SnapFISH was built using following Python packages.
