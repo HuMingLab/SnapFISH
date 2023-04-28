@@ -174,4 +174,4 @@ To run SnapFISH,
 If you are using Windows, please change `/` to `\\`.
 
 ## Contact Us
-For any questions regarding this software, contact Ming Hu (hum@ccf.org) or Lindsay Lee (leeh7@ccf.org).
+For any questions regarding this software, contact Ming Hu (hum@ccf.org), Lindsay Lee (leeh7@ccf.org), or Hongyu Yu (hongyuyu@email.unc.edu).
