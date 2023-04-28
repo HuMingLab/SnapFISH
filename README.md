@@ -98,7 +98,7 @@ Pearson's r (average.dist and contact.freq): -0.9845
 The cutoff is the average Euclidean distance in nm between two bin pairs 25Kb apart. The Pearson's *r* value is the correlation between the average distance matrix and the contact frequency matrix. The following files will also be produced:
 
 1. tmp/output_3D_dist_129chr3.txt: 
-⋅⋅* The pairwise distance between each bin in each cell. Missing values are skipped.
+..* The pairwise distance between each bin in each cell. Missing values are skipped.
 
 2. tmp/output_3D_dist_129chr3_avg.txt: 
 ⋅⋅* The average pairwise distance between each bin across all cells. 
