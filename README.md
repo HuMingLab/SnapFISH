@@ -25,7 +25,7 @@ git clone https://github.com/lindsayhrlee/SnapFISH SnapFISH && cd SnapFISH
 pip install -r requirements.txt
 ```
 
-## Program Descriptions
+## Program Description
 
 The SnapFISH algorithm consists of four steps:
 
