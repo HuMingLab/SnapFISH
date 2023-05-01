@@ -59,7 +59,7 @@ SnapFISH requires two text files described below as an input. The example of inp
 
 ### Dataset Used for GitHub Demo
  
-The dataset for the demo is a chromatin tracing data from Huang et al, NG, 2021 (PMID: [34002095](https://pubmed.ncbi.nlm.nih.gov/34002095/)) of the 5Kb bin resolution where 41 loci cover a 205Kb region in mESC *Sox2* locus - chr3:34,601,078–34,806,078 (ref: mm10). This dataset contains two alleles: 129 and CAST. 129 allele does not contain the 7.5Kb 4CBS insertion, however, CAST allele contains the 7.5Kb 4CBS insertion (not used in the GitHub demo). After filtering, we keep 649 cells (649 129 alleles and 649 CAST alleles). On average, each allele contains 28 5Kb bins. 
+The dataset for the demo is a chromatin tracing data from Huang et al, NG, 2021 (PMID: [34002095](https://pubmed.ncbi.nlm.nih.gov/34002095/)) of the 5Kb bin resolution where 41 loci cover a 205Kb region in mESC *Sox2* locus - chr3:34,601,078–34,806,078 (ref: mm10). This dataset contains two alleles: CAST and 129. The CAST allele contains a 7.5Kb 4CBS insertion (data not used in this GitHub demo), while the 129 allele does not contain this insertion (data used in this GitHub demo). On average, each allele contains 28 5Kb bins. 
 
 ### SnapFISH As a Command Line Tool
 
