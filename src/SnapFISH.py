@@ -20,6 +20,8 @@ class SnapFISH:
         self.ann = pd.read_csv(ann_path, sep="\t")
         self.BINSIZE = self.ann["end"][0] - self.ann["start"][0]
 
+        assert self.BINSIZE == 5e3 or self.BINSIZE == 25e3, "resolution not supported"
+
         if not os.path.exists(path):
             os.mkdir(path)
 
